@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-物品发布</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/centerArea.css"/>
+		<!--本页面的一些样式-->
+		<style type="text/css">
+			#release tr td {
+				color: #DD0000;
+			}
+			#release tr td span{
+				font-size: 12px;
+			}
+			#release tr td input{
+				width: 200px;
+				height: 20px;
+				border: 1px solid #DBDFE6;
+				border-top: 1px solid #ABADB3;
+				border-radius: 1px;
+				background-color: white;
+			}
+			#release tr td input[type="file"]{
+				height: 27px;
+				border: none;
+				background-color: #F1F1F1;
+			}
+			#release .tel td input{
+				width: 150px;
+			}
+			#release tr td input[type="submit"]{
+				width: 150px;
+				height: 30px;
+				border: 1px solid #000000;
+				background-color: #B80000;
+				font-size: 16px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+				<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="change_pwd.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="user_info">
+				<div id="info_left" class="border">
+					<p class="list_title" style="font-size: 20px;">卖家中心</p>
+					<ul class="list libottom">
+						<li>
+							<a href="release.html">
+								<img src="img/list.png" /><span>发布新商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="release_list.html">
+								<img src="img/list.png" /><span>已发布商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="sell.html">
+								<img src="img/list.png" /><span>管理修改商品信息</span>
+							</a>
+						</li>
+						<li>
+							<a href="user_info.html">
+								<img src="img/list.png" /><span>个人信息管理</span>
+							</a>
+						</li>
+						<li>
+							<a href="change_pwd.html">
+								<img src="img/list.png" /><span>修改密码</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div><!--info_left结束-->
+				<div id="info_right" class="border" style="height: 478px;">
+					<p class="list_title">物品发布</p>
+					<form method="get" action="">
+						<table border="0" id="release" class="msg_table">
+							<tr>
+								<td><label for="">*&nbsp;物品名称：</label></td>
+								<td><input type="text" name="goodsname" /><span>请用1-11个文字概述您的商品标题</span></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;价格：</label></td>
+								<td	><input type="text" name="price" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;成色：</label></td>
+								<td>
+									<select name="color[]">
+										<option value="1" >--选择物品的成色--</option>
+										<option value="2">8.5成</option>
+										<option value="3">7成</option>
+										<option value="4">5成</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label>*&nbsp;描述：</label></td>
+								<td><textarea name="" rows="6" cols="21"></textarea></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;您要转让的是：</label></td>
+								<td>
+									<select name="transfer[]">
+										<option value="1" >--请选择物品分类--</option>
+										<option value="2">手机</option>
+										<option value="3">电器</option>
+										<option value="4">首饰</option>
+									</select>
+									<select name="transfer[]">
+										<option value="1" >--请选择物品分类--</option>
+										<option value="2">魅族</option>
+										<option value="3">华为</option>
+										<option value="4">vivo</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;上传图片：</label></td>
+								<td>
+									<input type="file" name="file" value="浏览" />
+								</td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;您要转让的是：</label></td>
+								<td>
+									<select name="adds[]">
+										<option value="1" >--交易地点--</option>
+										<option value="2">江苏</option>
+										<option value="3">浙江</option>
+										<option value="4">广东</option>
+									</select>
+									<select name="city[]">
+										<option value="1" >--交易地点--</option>
+										<option value="2">南京</option>
+										<option value="3">杭州</option>
+										<option value="4">深圳</option>
+									</select>
+								</td>
+							</tr>
+							<tr class="tel">
+								<td><label for="">*&nbsp;联系电话：</label></td>
+								<td><input type="tel" name="tel"  maxlength="11"/></td>
+							</tr>
+							<tr class="tel">
+								<td><label for="">*&nbsp;联系人：</label></td>
+								<td><input type="text" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" name="submit"  value="立即发布>>" /><span>请务必填写所有信息</span>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div><!--info_right结束-->
+				<div style="clear: both;"></div>
+			</div><!--user_info结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>

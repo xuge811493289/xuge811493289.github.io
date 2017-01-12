@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-个人信息</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/> <!--公共样式header、ad、nav、footer-->
+		<link rel="stylesheet" type="text/css" href="css/centerArea.css" />
+		<style type="text/css">
+			/*#user_info{
+				margin-top: 15px;
+			}
+			#info_left{
+				width: 220px;
+				float: left;
+			}
+			#info_right{
+				width: 556px;
+				height: 378px;
+				float: right;
+			}
+			#info_right p{
+				font-size: 20px;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="user_info">
+				<div id="info_left" class="border">
+					<p class="list_title" style="font-size: 20px;">卖家中心</p>
+					<ul class="list libottom">
+						<li>
+							<a href="release.html">
+								<img src="img/list.png" /><span>发布新商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="release_list.html">
+								<img src="img/list.png" /><span>已发布商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="sell.html">
+								<img src="img/list.png" /><span>管理修改商品信息</span>
+							</a>
+						</li>
+						<li>
+							<a href="user_info.html">
+								<img src="img/list.png" /><span>个人信息管理</span>
+							</a>
+						</li>
+						<li>
+							<a href="change_pwd.html">
+								<img src="img/list.png" /><span>修改密码</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div><!--info_left结束-->
+				<div id="info_right" class="border" style="height: 378px;">
+					<p class="list_title">个人信息管理</p>
+					<form method="get" action="">
+						<table border="0" class="msg_table">
+							<tr>
+								<th colspan="2">请您拖上保管好您填写的资料，以便寻回密码。</th>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;用户名：</label></td>
+								<td><input type="text" name="username" id="username" placeholder="briup2" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;您的邮箱：</label></td>
+								<td	><input type="email" name="email" id="username" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;您的生日：</label></td>
+								<td><input type="text" name="birthday" id="username" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;联系方式</label></td>
+								<td><input type="tel" name="tel" id="username" maxlength="11"/></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;密保提示问题：</label></td>
+								<td>
+									<select name="secret[]">
+										<option value="" >你高中班主任的姓名</option>
+										<option value="">金鑫</option>
+										<option value="">张素素</option>
+										<option value="">静琴琴</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;密保答案：</label></td>
+								<td><input type="text" name="answer"/></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" name="submit" id="submit" value="保存信息" /><br />
+									
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><span>密保答案请自己牢记，不再提示！</span>	</td>
+							</tr>
+						</table>
+					</form>
+				</div><!--info_right结束-->
+				<div style="clear: both;"></div>
+			</div><!--user_info结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>

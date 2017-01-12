@@ -1,0 +1,136 @@
+/*公共的CSS样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #000000;
+	background: #F1F1F1 url(../img/bg.png)repeat-x;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+img{
+	border: none;
+}
+#wrapper{
+	/*width: 65%;*/
+	width: 800px;
+	/*border: 1px solid cornflowerblue;*/
+	margin: 0 auto;
+}
+#header{
+	width: 100%;
+	background-color: #990000;
+	border-bottom: 6px solid #4C4C4E;
+}
+#header #top{
+	float: right;
+	margin-top: 0;
+	line-height: 20px;
+	background: url(../img/top.png)no-repeat;
+}
+#login_hint{
+	float: left;
+	margin-left: 22px;
+	font-size: 12px;
+}
+#login_hint a:first-child{
+	margin-right: 20px;
+}
+#header #help{
+	float: right;
+	margin: 0px 10px 0 50px;
+	margin-left: 40px;
+}
+#help ul li{
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+#help ul li:last-child{
+	border: none;
+}
+#help ul li a{
+	font-size: 12px;
+	padding-right: 4px;
+}
+#header img{
+	float:left;
+}
+#header #logo{
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 10px;
+	vertical-align: text-top;
+}
+#header #logo input[type="search"]{
+	width: 216px;
+	height: 30px;
+	background-color: white;
+	border: none;
+	border-radius: 3px;
+	vertical-align: top;  /*顶部对齐*/
+}
+#header #logo input[type="button"]{
+	width: 80px;
+	height: 30px;
+	border: none;
+	font-size: 16px;
+	color: white;
+	background-image: url(../img/button.jpg);
+	vertical-align: top;  /*顶部对齐*/
+}
+
+#header hr{
+	width: 100%;
+	border: 2px solid #000000;
+}
+
+#ad{
+	width: 800px;
+	height: 125px;
+	font-size: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#nav{
+	line-height: 34px;
+	padding-left: 40px;
+	background: url(../img/nav_bg.png)repeat;
+}
+#nav ul li{
+	width: 70px;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin-right: 30px;
+}
+#nav ul li:first-child{
+	margin-right: 16px;
+}
+#nav ul li:hover{
+	background: url(../img/hover.png)no-repeat;
+}
+#nav ul li a{
+	font-size: 16px;
+}
+
+#footer{
+	height: 70px;
+	text-align: center;
+	margin-top: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #B80000;
+}
+#copyright{
+	padding-top: 22px;
+	color: white;
+}

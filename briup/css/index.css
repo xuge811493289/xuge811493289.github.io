@@ -1,0 +1,128 @@
+.container{
+			width: 754px;
+			margin: 10px auto 0px;
+		}
+		#nav_sort{
+			/*height: 340px
+	order: 1px solid firebrick;*/
+}
+#nav_list{
+	width: 224px;
+	height: 331px;
+	float: left;
+}
+
+.nav_title{
+	font-size: 20px;
+	line-height: 42px;
+	margin: 18px 0;
+	padding-left: 8px;
+	color: white;
+	background-color: #B80000;
+}
+
+#secondhand{
+	width: 750px;
+}
+.title{
+	font-size: 18px;
+	line-height: 42px;
+	padding-left: 8px;
+	color: white;
+	background-color: #B80000;
+}
+.title img{
+	margin: 0 10px 0 18px;
+}
+.title span{
+	display: inline-block;
+}
+.title .more{
+	float: right;
+	margin-right: 10px;
+}
+.goods_sort{
+	background-color: #DEDEDE;
+}
+.goods_sort li{
+	list-style: none;
+	display: inline-block;
+	line-height: 32px;
+}
+.goods_sort li:first-child{
+	background-color: #F1F1F1;
+}
+.goods_sort li a{
+	color: #000000;
+	margin: 0 32px;
+}
+.goods_show{
+	/*width: 694px;
+	margin: 0 auto;*/
+	padding-left: 18px;
+}
+.goods_show ul li{
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	vertical-align: text-top;
+}
+.goods_show ul li a img{
+	width: 146px;
+	height: 146px;
+}
+.goods_show .sale{
+	width: 146px;
+	height: 36px;
+	font-weight: bold;
+}
+.goods_show ul li a .sale img{
+	width: 50px;
+	height: 24px;
+	float: left;
+	margin-left: 0;
+	margin-top: 8px;
+}
+.sale span{
+	display: block;
+	padding-left: 40px;
+}
+.sale .goodsname{
+	color: #000000;
+}
+.sale .price{
+	font-size: 12px;
+	color: #DD0036;
+}
+/*其他信息，新闻*/
+#msg{
+	/*height: 400px;
+	background-color: palegoldenrod;*/
+}
+#msg .content{
+	width: 365px;
+	height: 300px;
+}
+#msg #msg_left{
+	float: left;
+}
+#msg #msg_right{
+	float: right;
+}
+#msg .phase{
+	padding-left: 10px;
+	padding-right: 6px;
+	padding-top: 20px;
+}
+#msg .phase p{
+	font-size: 16px;
+	line-height: 28px;
+	text-indent: 4px;
+	border-bottom: 1px solid #CCC;
+}
+#msg .phase p span{
+	display: inline-block;
+}
+#msg .phase p .time{
+	float: right;
+}

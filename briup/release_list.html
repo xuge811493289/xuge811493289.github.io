@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-已发布商品</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/centerArea.css" />
+		<style type="text/css">
+			#release_goods{
+				margin: 6px;
+				border: none;
+				border: 1px solid #000000;
+			}
+			#release_goods tr th{
+				font-size: 16px;
+				color: white;
+				font-weight: 100;
+				text-align: center;
+				background-color: #B80000;
+			}
+			#release_goods tr td{
+				text-align: center;
+				color: #DD0000;
+			}
+			#release_goods tr td button{
+				border: none;
+				color:white;
+				background-color: #B80000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="user_info">
+				<div id="info_left" class="border">
+					<p class="list_title" style="font-size: 20px;">卖家中心</p>
+					<ul class="list libottom">
+						<li>
+							<a href="release.html">
+								<img src="img/list.png" /><span>发布新商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="release_list.html">
+								<img src="img/list.png" /><span>已发布商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="sell.html">
+								<img src="img/list.png" /><span>管理修改商品信息</span>
+							</a>
+						</li>
+						<li>
+							<a href="user_info.html">
+								<img src="img/list.png" /><span>个人信息管理</span>
+							</a>
+						</li>
+						<li>
+							<a href="change_pwd.html">
+								<img src="img/list.png" /><span>修改密码</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div><!--info_left结束-->
+				<div id="info_right" class="border" >
+					<p class="list_title">已发布物品</p>
+					<form method="get" action="">
+						<table id="release_goods" border="1" cellspacing="0" cellpadding="0">
+							<tr>
+								<th>商品名称</th>
+								<th>价格</th>
+								<th>图片</th>
+								<th>交易地点</th>
+								<th>联系人</th>
+								<th>联系方式</th>
+								<th>撤销发布</th>
+							</tr>
+							<tr>
+								<td>联想笔记本</td>
+								<td>￥8999</td>
+								<td><img src="img/goods.jpg" align="absbottom"/></td>
+								<td>江苏省南京市</td>
+								<td>张三丰</td>
+								<td>18775242444</td>
+								<td><button>撤销</button></td>
+							</tr>
+							<tr>
+								<td>联想笔记本</td>
+								<td>￥8999</td>
+								<td><img src="img/goods.jpg" align="absbottom"/></td>
+								<td>江苏省南京市</td>
+								<td>张三丰</td>
+								<td>18775242444</td>
+								<td><button>撤销</button></td>
+							</tr>
+							<tr>
+								<td>联想笔记本</td>
+								<td>￥8999</td>
+								<td><img src="img/goods.jpg" align="absbottom"/></td>
+								<td>江苏省南京市</td>
+								<td>张三丰</td>
+								<td>18775242444</td>
+								<td><button>撤销</button></td>
+							</tr>
+							<tr>
+								<td>联想笔记本</td>
+								<td>￥8999</td>
+								<td><img src="img/goods.jpg" align="absbottom"/></td>
+								<td>江苏省南京市</td>
+								<td>张三丰</td>
+								<td>18775242444</td>
+								<td><button>撤销</button></td>
+							</tr>
+						</table>
+					</form>
+				</div><!--info_right结束-->
+				<div style="clear: both;"></div>
+			</div><!--user_info结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>

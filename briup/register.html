@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-注册页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<style type="text/css">
+			/*注册页面的center区域*/
+			#center{
+				width: 100%;
+			}
+			#center table{
+				border-collapse: collapse;
+				margin:15px 0 12px 80px;
+			}
+			#center table tr{
+				height: 34px;
+			}
+			#center table tr th{
+				color: #B80000;
+				font-size: 18px;
+				padding-left: 10px;
+			}
+			#center table tr td:first-child{
+				padding-left: 10px;
+				width: 122px;
+				text-align: right;
+			}
+			#center table tr td:nth-child(2){
+				text-align: left;
+			}
+			#center table tr td label{
+				width: 112px;
+				color: #C10000;
+				font-size: 16px;
+				/*text-align: right;*/
+			}
+			#center table tr td input{
+				width: 180px;
+				height: 18px;
+				border-left: 1px solid #555555;
+				border-top: 1px solid #555555;
+				border-right: 1px solid #CCCCCC;
+				border-bottom: 1px solid #CCCCCC;
+				background-color: white;
+			}
+			#center table tr:nth-child(2) td span{
+				font-size: 10px;
+				color: #FF0000;
+			}
+			#center table tr:nth-child(4) td span{ /*密码强度*/
+				display: inline-block;
+				width: 36px;
+				line-height: 36px;
+				font-size: 16px;
+				color: #ADADC8;
+				text-align: center;
+				margin-right: 5px;
+				/*border: 1px solid #CCCCCC;*/
+				background-color: white;
+			}
+			#center table tr td select{
+				width: 54px;
+			}
+			/*验证码*/
+			#center table tr .identify input{
+				width: 60px;
+			}
+			#center table tr .identify input:nth-child(2){
+				margin-left: 10px;
+				border: none;
+				background-color: #938A87;
+			}
+			#center table tr td input[type="submit"]{
+				height: 28px;
+				margin-left: 5px;
+				font-size: 16px;
+				color: white;
+				border: 1px solid #333333;
+				background-color: #B80000;
+			}
+			#center table tr:last-child td{
+				color: #C10000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div><!--ad结束-->
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="center">
+				<table border="0" cellspacing="" cellpadding="">
+					<tr>
+						<th colspan="2" align="left">请填写注册信息</th>
+					</tr>
+					<tr>
+						<td><label for="">*账号：</label></td>
+						<td>
+							<input type="text" name="username" id="username" value="" />
+							<span>用户名必须是5-12位字符</span>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="">*密码：</label></td>
+						<td><input type="password" name="password" /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<span>弱</span><span>中</span><span>强</span>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="">*密码确认：</label></td>
+						<td><input type="password" /></td>
+					</tr>
+					<tr>
+						<td><label for="">*密码确认：</label></td>
+						<td>
+							<select name="sex[]">
+								<option value="">男</option>
+								<option value="">女</option>
+							</select>
+						</td>
+					</tr>
+					<tr> <!--验证码-->
+						<td><label for="">*验证码：</label></td>
+						<td class="identify">
+							<input type="text" /><input type="text" name="code" disabled="disabled"/>
+						</td>
+					</tr>
+					
+					<tr>
+						<td rowspan="2"></td>
+						<td rowspan="2"><input type="submit" name="submit" id="submit" value="同意协议并注册" /></td>
+					</tr>
+					<tr>
+						<!--<td></td>-->
+						<!--<td></td>-->
+					</tr>
+					<tr>
+						<td></td>
+						<td align="left">《杰普服务协议》</td>
+					</tr>
+				</table>
+			</div>
+			
+			
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>

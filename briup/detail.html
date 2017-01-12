@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/centerArea.css"/>
+		<style>
+			#detail_right{
+				width: 556px;
+				/*height: 600px;*/
+				float: right;
+				/*border: 1px dashed mediumorchid;*/
+			}
+			.detail_title{
+				line-height: 36px;
+				font-size: 18px;
+				color: #000000;
+				border-bottom: 4px solid #B80000;
+			}
+			/*#goods_detail{
+				margin-top: 10px;
+			}*/
+			#goods_detail img{
+				float: left;
+				width: 276px;
+				height: 266px;
+				margin: 10px 0;
+				border: 2px solid #DD0000;
+			}
+			#goods_detail #detail_msg{
+				float: left;
+				width: 254px;
+				height: 220px;
+				color: #333333;
+				margin-top: 15px;
+			}
+			#detail_msg h3{
+				margin-left: 20px;
+			}
+			#detail_msg .time{
+				margin-left: 20px;
+				line-height: 36px;
+			}
+			#detail_msg .time span{
+				display: inline-block;
+				font-size: 10px;
+				
+			}
+			#detail_msg .time span:last-child{
+				font-size: 12px;
+				font-weight: bold;
+				position: relative;
+				top: 2px;
+				left: 40px;
+			}
+			#detail_msg hr{
+				border: 1px solid #DD0000;
+			}
+			#detail_msg .contact{
+				font-size: 16px;
+				line-height: 36px;
+				margin-left: 20px;
+			}
+			.contact p:first-child{
+				margin: 10px 0;
+			}
+			.contact p font:first-child{
+				font-size: 20px;
+				color: #DD0000;
+				margin-left: 15px;
+			}
+			.contact p font:nth-child(2){
+				font-size: 14px;
+				font-weight: bold;
+			}
+			#detail_btm{
+				clear: both;
+				margin-top: 15px;
+			}
+			#detail_btm p:first-child{
+				color: white;
+				line-height: 26px;
+				background-color: #B80000;
+			}
+			#detail_btm p:first-child span:first-child{
+				font-size: 18px;
+				margin-left: 20px;
+			}
+			#detail_btm p:first-child span:last-child{
+				display: inline-block;
+				float: right;
+				margin-right: 6px;
+			}
+			#detail_btm p:last-child{
+				color: #333333;
+				line-height: 50px;
+				margin-left: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎您登录！&nbsp;briup2</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="user_info">
+				<div id="info_left" class="border">
+					<p class="list_title" style="font-size: 20px;">快速导航</p>
+					<ul class="list libottom">
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>二手电脑/数码产品</span>
+								<ul class="second_sort">
+									<li><a href="">笔记本</a></li>
+									<li><a href="">手机</a></li>
+									<li><a href="">相机</a></li>
+									<li><a href="">台式机</a></li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>二手家用/生活用品</span>
+								<ul class="second_sort">
+									<li>笔记本</li>
+									<li>手机</li>
+									<li>相机</li>
+									<li>台式机</li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>办公设备/文体户外</span>
+								<ul class="second_sort">
+									<li><a href="">办公家具</a></li>
+									<li><a href="">打印机</a></li>
+									<li><a href="">机械设备</a></li>
+									<li><a href="">球拍</a></li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>图书音像</span>
+								<ul class="second_sort">
+									<li><a href="">CD</a></li>
+									<li><a href="">唱片设备</a></li>
+									<li><a href="">学习书籍</a></li>
+									<li><a href="">小说</a></li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>服装箱包</span>
+								<ul class="second_sort">
+									<li><a href="">服装</a></li>
+									<li><a href="">女装</a></li>
+									<li><a href="">包包</a></li>
+									<li><a href="">鞋子</a></li>
+								</ul>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<img src="img/list.png" /><span>手工制作/Diy</span>
+								<ul class="second_sort">
+									<li><a href="">手工</a></li>
+									<li><a href="">Diy创意</a></li>
+									<li><a href="">其它</a></li>
+									<li><a href="">收藏品</a></li>
+								</ul>
+							</a>
+						</li>
+					</ul>
+				</div><!--info_left结束-->
+				<div id="detail_right">
+					<p class="detail_title">二手市场></p>
+					<div id="goods_detail">
+						<img src="img/gs04.jpg" alt="这是图片" />
+						<div id="detail_msg">
+							<h3>台式机套装</h3>
+							<p class="time"><span>2013-12-02&nbsp;13:22:00发布&nbsp;浏览10次</span><span>收藏</span></p>
+							<hr />
+							<div class="contact">
+								<p><font>￥11111</font><font>全新</font></p>
+								<p>交易地点：苏州市</p>
+								<p>联系人：李四</p>
+								<p>联系方式：18775242222</p>
+							</div>
+						</div>
+					</div><!--goods_detail结束-->
+					<div id="detail_btm" class="border">
+						<p>
+							<span>详情描述</span><span>信息编号:20131202132204</span>
+						</p>
+						<p>展示商品，请勿联系！</p>
+					</div>
+				</div><!--detail_right结束-->
+				<div style="clear: both;"></div>
+			</div><!--user_info结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div><!--wrapper结束-->
+	</body>
+</html>

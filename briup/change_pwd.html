@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Briup-密码修改</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/centerArea.css"/>
+		<style type="text/css">
+			.msg_table label{
+				color: #DD0000;
+			}
+			.msg_table tr td{
+				font-size: 16px;
+				padding-bottom: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="user_info">
+				<div id="info_left" class="border">
+					<p class="list_title" style="font-size: 20px;">卖家中心</p>
+					<ul class="list libottom">
+						<li>
+							<a href="release.html">
+								<img src="img/list.png" /><span>发布新商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="release_list.html">
+								<img src="img/list.png" /><span>已发布商品</span>
+							</a>
+						</li>
+						<li>
+							<a href="sell.html">
+								<img src="img/list.png" /><span>管理修改商品信息</span>
+							</a>
+						</li>
+						<li>
+							<a href="user_info.html">
+								<img src="img/list.png" /><span>个人信息管理</span>
+							</a>
+						</li>
+						<li>
+							<a href="change_pwd.html  ">
+								<img src="img/list.png" /><span>修改密码</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div><!--info_left结束-->
+				<div id="info_right" class="border" >
+					<p class="list_title">密码修改</p>
+					<form method="get" action="">
+						<table border="0" class="msg_table">
+							<tr>
+								<th colspan="2">请输入原始密码后，填写您的新密码！</th>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;原密码：</label></td>
+								<td><input type="password" name="password" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;新密码：</label></td>
+								<td><input type="password" name="new_pwd" /></td>
+							</tr>
+							<tr>
+								<td><label for="">*&nbsp;确认新密码：</label></td>
+								<td><input type="password" name="refirm_pwd" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" name="submit" id="submit" value="提交>>" /><br />
+									
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div><!--info_right结束-->
+				<div style="clear: both;"></div>
+			</div><!--user_info结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>

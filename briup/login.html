@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Briup登陆页面</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<style type="text/css">
+			#login{
+				width: 480px;
+				height: 400px;
+				border: 1px solid navy;
+				margin: 30px auto 10px;
+				border: 2px solid #FF0000;
+				border-radius: 5px;
+				background: url(../img/xiaoren.jpg)no-repeat;
+			}
+			
+			#login h2 {
+				color: white;
+				margin: 20px 0;
+				padding-left: 20px;
+				background-color: #DD0000;
+			}
+			
+			#login .lg {
+				font-size: 16px;
+				color: #FF0000;
+				margin-left: 20px;
+				margin-bottom: 20px;
+			}
+			
+			#login .lg input {
+				width: 250px;
+				height: 32px;
+				background-color: white;
+				border-radius: 3px;
+			}
+			
+			#login .lg input[type="submit"] {
+				width: 252px;
+				font-size: 16px;
+				color: white;
+				margin-top: 40px;
+				border: none;
+				background-color: #DD0000;
+			}
+			
+			#login p a {
+				color: #DD0000;
+			}
+			
+			#login .p_forget {
+				padding-right: 40px;
+				text-align: right;
+			}
+			
+			#login .p_noaccount {
+				padding-left: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="top">
+					<div id="login_hint">
+						<a href="login.html">欢迎光临！请登录</a>
+						<a href="register.html">免费注册</a>
+					</div>
+					<div id="help">
+						<ul>
+							<li><a href="sell.html">卖家中心</a></li>
+							<li><a href="">帮助中心</a></li>
+							<li><a href="collect.html">我的收藏</a></li>
+							<li><a href="">注销</a></li>
+						</ul>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<img src="img/logo.png" align="absmiddle"/>
+				<div id="logo">
+					<input type="search" name="" value=""/>
+					<input type="button" name="" value="搜索" />
+				</div>
+				<div style="clear: both;"></div>
+				<hr />
+			</div><!--header结束-->
+			<div id="ad">
+				<img src="img/plan.jpg" alt="这是图片"/>
+			</div>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">二手市场</a></li>
+					<li><a href="">公司业务</a></li>
+					<li><a href="">创业招聘</a></li>
+					<li><a href="">客服中心</a></li>
+				</ul>
+			</div><!--导航nav结束-->
+			<div id="center">
+				<div id="login">
+					<h2>Briup&nbsp;欢迎您！</h2>
+					<div class="lg">
+						<p>登录名：</p>
+						<input type="text" name="" value="" />
+					</div>
+					<div class="lg">
+						<p>登录密码：</p>
+						<input type="password" name="password" value="" />
+						<input type="submit" value="登录"/>
+					</div>
+					<p class="p_forget"><a href="">忘记了密码...</a></p>
+					<p class="p_noaccount"><a href="login.html">还没有账号？立即注册</a></p>
+				</div>
+			</div><!--登陆中心login结束-->
+			<div id="footer">
+				<div id="copyright">
+					<p>&copy;&nbsp;2013&nbsp;Estore</p>
+					<p>Site&nbsp;Design&nbsp;-&nbsp;Briup</p>
+				</div>
+			</div><!--footer结束-->
+		</div>
+	</body>
+</html>
