@@ -1,0 +1,17 @@
+/* CSS Document */
+*{ 
+	margin:0;
+	padding:0;
+}
+img{
+	border:none; 
+}
+h1,h2,h3{font-weight:normal;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+body{
+	min-width: 1150px;
+	font-size: 14px;
+	color: #333;
+	display: block;
+}
