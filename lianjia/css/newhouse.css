@@ -1,0 +1,805 @@
+/*头部*/
+.header{
+	width: 100%;
+	height: 36px;
+	background-color: #394043;
+}
+.header_wrapper{
+	width: 1000px;
+	height: 36px;
+	float: left;
+	margin-left: 174px;
+}
+.header_ul{
+	width: 400px;
+	float: left;
+}
+.header_wrapper li{
+	display: inline-block;
+	margin-right: 16px;
+}
+.header_wrapper li a{
+	color: #a9abab;
+	font-size: 12px;
+	line-height: 36px;	
+}
+.header_wrapper li a:hover{
+	cursor: pointer;
+	color: #fff;
+}
+.header_tele{
+	color: #FFFFFF;
+	display: inline-block;	
+	line-height: 36px;
+	float: right;
+}
+.header_tele i{
+	background: url(../newhouse_img/sprite_bj.png) no-repeat -369px -221px;
+	width: 12px;
+	height: 12px;
+	margin-right: 9px;
+	vertical-align: -1px;
+	display: inline-block;	
+}
+.header_login{
+	width:96px;
+	height: 36px;
+	float:right;
+}
+.header_login i{
+	background: url(../newhouse_img/sprite_bj.png) no-repeat -346px -236px;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.header_login span{
+	color: white;
+	margin-top: 10px;
+	word-spacing: -3px
+}
+.header_login a{
+	font-size: 12px;
+	color: white;
+}
+.header_tele{
+	font-size: 12px;
+	line-height: 36px;
+}
+
+
+
+/*头部图标部分*/
+.header_icon{
+	height: 86px;
+	width: 1000px;
+	margin-left: 174px;
+}
+#header_left{
+	background: url(../newhouse_img/header_icon.png) no-repeat;
+	width: 223px;
+	height: 33px;
+	margin-top: 27px;
+	float: left;
+}
+#shuxian{
+	width: 1px;
+	height: 29px;
+	background-color: #CCCCCC;
+	float: left;
+	margin:27px 0px 22px 22px;
+}
+#daohang{
+	height: 26px;
+	width: 60px;
+	border: 1px solid #DFDFDF;
+	float: left;
+	margin:27px 22px 0;
+}
+#daohang span{
+	width: 30px;
+	height: 16px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 8px;
+}
+#daohang i{
+	background: url(../newhouse_img/xiala.png) no-repeat;
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top: 3px;
+}
+
+
+
+/*头部导航部分*/
+.header_search{
+	height: 72px;
+	width: 100%;
+	background-color: #edeff1;
+}
+.header_search_wrapper{
+	width: 1000px;
+	height: 72px;
+	float: left;
+	margin-left: 174px;
+	position: relative;
+}
+.header_search input{
+	width: 356px;
+	height: 36px;
+	margin-top: 18px;
+	float: left;
+	padding-left: 16px;
+	color: #777777;
+}
+#search_icon{
+	width: 36px;
+	height: 36px;
+	background-color: #F15044;
+	float: left;
+	margin-top: 18px;
+	margin-left: -1px;
+}
+#search_icon i{
+	background: url(../newhouse_img/header_search.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin:9px;
+}
+#lishi{
+	color: #999;
+	font-size: 12px;
+	line-height: 72px;
+	margin-left: 20px;
+}
+.header_search_wrapper a{
+	width: 104px;
+	height:36px ;
+	background-color:#39AC6A ;
+	float: right;
+	margin-top:18px;
+	color: white;
+	border-radius: 2px;
+	font-size: 14px;
+	line-height: 36px;
+	text-align: center;
+}
+.header_search_wrapper a i{
+	background: url(../newhouse_img/search_icon.png) no-repeat -110px -70px;
+	width: 12px;
+	height: 17px;
+	margin-right: 5px;
+	margin-top: 2px;
+	display: inline-block;
+	vertical-align: -4px;
+}
+.header_search_wrapper img{
+	position:absolute;
+	right: -81px;
+	top:-65px;
+	width: 103px;
+	vertical-align: top;
+	border: 0 none;
+}
+
+
+
+
+/*内容区的地址导航*/
+.content_daohang{
+	width: 1000px;
+	height: 46px;
+	margin-left: 174px;
+	border-bottom: 1px solid #eaeaea;
+}
+.content_daohang_word{
+	color: #555555;
+	font-size: 12px;
+	line-height: 46px;
+	text-decoration: none;
+}
+.content_daohang_word:hover{
+	text-decoration: underline;
+}
+.content_daohang i{
+	background: url(../newhouse_img/address.png) no-repeat;
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-top: 16px;
+	margin-right: 1px;
+}
+.jiantou{
+	height: 46px;
+	line-height: 46px;
+	color: #999;
+	font-family: simsun;
+	margin:0 8px;
+}
+.select{
+	width: 1000px;
+	margin-left: 174px;
+	height: 225px;
+	float: left;
+	padding-top: 10px;
+}
+.select ul{
+	height: 34px;
+}
+.select ul li{
+	display: inline-block;
+	padding-right: 20px;
+	height: 32px;
+	line-height: 32px;
+	
+}
+.word_sty{
+	font-size: 12px;
+	color: #333;
+}
+.jiacu{
+	font-size: 12px;
+	color:#333;
+	font-weight: 700;	
+}
+.buxian{
+	font-size: 12px;
+	color: #00ae66;
+}
+.checkbox{
+	width: 12px;
+	height: 12px;
+	border: none;
+}
+.li_input{
+	font-size: 12px;
+	width: 50px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#li_input1,#li_input2,#li_input3{
+	padding-right: 0px;
+	color: #888;
+}
+#li_input1 input,#li_input3 input{
+	color: #777777;
+}
+.checkbox{
+	height: 12px;
+	width: 12px;
+	border: 1px solid #ddd;
+	display: inline-block;	
+	margin-right: 3px;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.max_li{
+	margin-right: 25px;
+}
+
+
+
+/*点开显示更多*/
+.click_showmore{
+	height: 22px;
+	line-height: 12px;
+	padding-top: 6px;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+}
+.click_showmore i{
+	background:url(../newhouse_img/showmoreIcon.png);
+	height: 7px;
+	width: 10px;
+	position: absolute;
+	top: 10px;
+	left: 600px;
+}
+
+
+
+/*全部楼盘的选项部分*/
+.all{
+	width: 1000px;
+	height: 32px;
+	float: left;
+	margin-left: 174px;
+}
+.all_left{
+	float: left;
+}
+.all_left a{
+	height: 32px;
+	line-height: 32px;
+	width: 90px;
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;cursor: pointer;
+	margin-right: 4px;
+	
+}
+.all_left a:first-child{
+	background-color: #666;
+	color: #fff;
+}
+.all_left a:last-child{
+	color: #999999;
+}
+.all_right{
+	float: right;
+}
+
+.all_child{
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	width: 126px;
+}
+.all_right a:first-child{
+	border:1px solid #00ae66;
+	color: #00ae66;
+	margin-left: 10px;
+}
+.all_right a:nth-child(2),.all_right a:nth-child(3){
+	border:1px solid #e4e4e4;
+	margin-left: 10px;
+	color: #333;
+}
+.all_child i{
+	background: url(../newhouse_img/xiala.png) no-repeat;
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-top: 4px;
+}
+
+
+
+/*图片展示*/
+.img_show{
+	width: 1000px;
+	margin-left: 174px;
+	margin-top: 280px;
+	min-height: 300px;
+}
+.imgshow_li{
+	border-bottom: 1px solid #e4e4e4;
+	height: 250px;
+}
+.imgshow_li:hover{
+	background-color: #f9f9f9;
+	cursor: pointer;
+}
+.all_img{
+	float: left;
+	margin-top: 36px;
+	margin-left: 0px;
+	width: 239px;
+	height: 174px;
+}
+.img_1{
+	background:url(../newhouse_img/house_show.jpg) no-repeat ;
+}
+.img_2{
+	background:url(../newhouse_img/img_2.jpg) no-repeat ;
+}
+.img_3{
+	background:url(../newhouse_img/img_3.jpg) no-repeat ;
+}
+.img_4{
+	background:url(../newhouse_img/img_4.jpg) no-repeat ;
+}
+.img_5{
+	background:url(../newhouse_img/img_5.jpg) no-repeat ;
+}
+.img_6{
+	background:url(../newhouse_img/img_6.jpg) no-repeat ;
+}
+.img_7{
+	background:url(../newhouse_img/img_7.jpg) no-repeat ;
+}
+.img_8{
+	background:url(../newhouse_img/img_8.jpg) no-repeat ;
+}
+.img_9{
+	background:url(../newhouse_img/img_9.jpg) no-repeat ;
+}
+.img_10{
+	background:url(../newhouse_img/img_10.jpg) no-repeat ;
+}
+.house_info{
+	height: 174px;
+	width: 480px;
+	float: left;
+	margin-top: 36px;
+	margin-left: 30px;
+}
+.house_info_right{
+	width: 230px;
+	height: 174px;
+	float: left;
+	margin-top: 36px;
+	margin-left: 10px;
+}
+.house_info_up a{
+	height: 27px;
+	line-height: 27px;
+	font-size: 20px;
+	float: left;
+	color: #333;
+	font-weight: 700;
+}
+.house_info_up a:hover,.house_info_mid:hover,.house_info_down:hover{
+	color: #009de8;
+}
+.zhuzhai{
+	font-size: 12px;
+	line-height: 27px;
+	float: left;
+	border-radius:2px;
+	margin-right: 6px;
+	margin-left: 15px;
+	color: #fff;
+	background-color: #00ae66;
+	height: 27px;
+	width: 35px;
+	text-align: center;
+}
+.zaishou{
+	font-size: 12px;
+	line-height: 27px;
+	float: left;
+	border-radius:2px;
+	margin-right: 6px;
+	color: #fff;
+	background-color: #ff764c;
+	height: 27px;
+	width: 35px;
+	text-align: center;
+}
+.house_info_mid{
+	clear: left;
+	float: left;
+	margin-top: 27px;
+	margin-left: -6px;
+	color: #333;
+	display: inline-block;
+	font-size: 14px;
+}
+.house_info_down{
+	clear: left;
+	float: left;
+	margin-top: 30px;
+}
+.house_info_juli{
+	clear: left;
+	float: left;
+	margin-top: 25px;
+	height: 26px;
+	width: 400px;
+}
+.huoche_icon{
+	background:#83a1ba url(../newhouse_img/li_icon.png) no-repeat;
+	height: 26px;
+	width: 26px;
+	float: left;
+	display: inline-block;
+}
+.huoche_word{
+	background-color: #f2f9fe;
+	color: #333;
+	line-height: 26px;
+	padding: 0 12px;
+	display: inline-block;
+	font-size: 12px;
+}
+.house_price{
+	float: right;
+	color: #333;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: right;
+	margin-top: 76px;
+	line-height: 1;
+}
+.num{
+	color: #f15044;
+	font-family: Tahoma,"sans-serif";
+	font-size: 30px;
+	margin: 0 7px;
+	vertical-align: -2px;
+	line-height: 1;
+}
+
+
+
+/*页码部分*/
+.pages{
+	height: 32px;
+	width: 1000px;
+	float: left;
+	margin-left: 174px;
+	padding: 30px 0;
+	text-align: center;
+}
+.page_span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 700;
+	margin-left: 5px;
+	padding: 0 12px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+	border: 1px solid #b0b4b9;
+}
+.on{
+	background-color: #f15044;
+	border-color: #f15044;
+	color: #fff;
+	cursor: default;
+	font-size: 14px;
+}
+
+
+
+/*脚部分*/
+.footer{
+	height: 426px;
+	width: 100%;
+	background: url(../images/footer-bg.jpg) no-repeat;
+	float: left;
+	
+}
+.footer_wrapper{
+	width: 1150px;
+	margin: 0 auto;
+}
+.footer_up {
+	height: 78px;
+}
+.footer_up ul li a{
+	color: white;
+	float: left;
+	padding-right: 15px;
+	font-size: 14px;
+	height: 78px;
+	line-height: 78px;
+}
+#tel{
+	color: #7dcfa0;
+	float: right;
+	height: 78px;
+	line-height: 78px;
+}
+.footer_mid{
+	height: 175px;
+	border-bottom: 1px solid RGB(50,50,50);
+	border-top: 1px solid RGB(50,50,50);
+	position: relative;
+}
+#footer_span{
+	width: 850px;
+	float: left;
+}
+.footer_span{
+	color: RGB(153,153,153);
+	background-color: RGB(18,18,18);
+	cursor: pointer;
+	float: left;
+	margin-right: 12px;
+	padding: 8px 10px;
+	font-size: 12px;
+	margin-top: 15px;
+	text-align: center;
+}
+.footer_span:hover{
+	color: white;
+	background-color: RGB(61,61,61);
+}
+.footer_mid_down{
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.footer_mid_down_word{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.footer_mid_down_word a{
+	color: RGB(153,153,153);
+	font-size: 12px;
+}
+.footer_mid_right{
+	background: url(../images/footer_sao.png) no-repeat;
+	width: 139px;
+	height: 139px;
+	float: right;
+	margin-right: 0px;
+	margin-top: -30px;
+}
+.footer_down{
+	padding-top: 23px;
+}
+.footer_mid_bottom{
+	height: 20px;
+	color: #888c8e;
+	position: absolute;
+	top: 155px;
+	bottom: 15px;
+	font-size: 12px;
+	line-height: 12px;
+	
+}
+.footer_down_word{
+	float: left;
+	color: #999;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+
+
+/*右侧导航*/
+.right{
+	width: 38px;
+	height: 650px;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+.right_up{
+	height: 400px;
+	width: 40px;
+	float: left;
+	margin-top: 160px;
+}
+#right_icon1{
+	background-image: url(../images/right_img.png);
+	background-repeat: no-repeat;
+	background-position: -38px 0;
+	height: 38px;
+	width: 38px;
+}
+#right_icon2{
+	background: url(../images/right_icon.png) no-repeat;
+	width: 24px;
+	height: 8px;
+	margin-left: 8px;		
+}
+#right_icon3{
+	background: url(../images/right_img.png) no-repeat -38px -88px;
+	height: 50px;
+	line-height: 50px;
+	width: 38px;
+}
+#right_icon4{
+	background: url(../images/right_icon.png) no-repeat;
+	width: 24px;
+	height: 8px;
+	margin-left: 8px;
+}
+#right_icon5{
+	background:url(../images/right_img.png) no-repeat -38px -138px;
+	height: 38px;
+	line-height: 38px;
+	width: 38px;
+}
+#right_icon6{
+	background:url(../images/right_img.png) no-repeat -38px -176px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon7{
+	background:url(../images/right_img.png) no-repeat -38px -214px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon8{
+	background:url(../images/right_img.png) no-repeat -38px -252px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon9{
+	background:url(../images/right_img.png) no-repeat -38px -290px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon1:hover{
+	background-image: url(../images/right_img.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0;
+	height: 38px;
+	width: 38px;
+}
+#right_icon3:hover{
+	background: url(../images/right_img.png) no-repeat 0px -88px;
+	height: 50px;
+	line-height: 50px;
+	width: 38px;
+}
+#right_icon5:hover{
+	background:url(../images/right_img.png) no-repeat 0px -138px;
+	height: 38px;
+	line-height: 38px;
+	width: 38px;
+}
+#right_icon6:hover{
+	background:url(../images/right_img.png) no-repeat 0px -176px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon7:hover{
+	background:url(../images/right_img.png) no-repeat 0px -214px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+#right_icon8:hover{
+	background:url(../images/right_img.png) no-repeat 0px -252px;
+	height: 38px;
+	line-height: 42px;
+	width: 38px;
+}
+.right_up_icon:hover{
+	cursor: pointer;
+}
+/*右下角客服*/
+.kefu{
+	height: 40px;
+	width: 240px;
+	position: fixed;
+	bottom: 0px;
+	right: 58px;
+	background-color: white;
+	box-shadow:0 0 30px 0 rgba(0, 0, 0, 0.45);/*设置阴影*/
+}
+#kefu_icon{
+	background:url(../images/kefu_icon.png) no-repeat;
+	height: 18px;
+	line-height: 40px;
+	width: 18px;
+	margin-top: 14px;
+	margin-left: 14px;
+	cursor: pointer;
+}
+.kefu span{
+	display: block;
+	position: absolute;
+	left: 40px;
+	top: 12px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
